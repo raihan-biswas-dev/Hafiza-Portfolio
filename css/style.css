@@ -1,0 +1,242 @@
+/* =================================
+            common css start
+   ================================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.peoject-container {
+    max-width: 992px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* --------------Font Weight Start--------------- */
+
+.font-regular {
+    font-weight: 400;
+}
+.font-medium {
+    font-weight: 500;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-extrabold {
+    font-weight: 800;
+}
+.font-black {
+    font-weight: 900;
+}
+/* --------------Font Weight End--------------- */
+
+/* --------------Font Size Start--------------- */
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.font-40 {
+    font-size: 40px;
+}
+.font-48 {
+    font-size: 48px;
+}
+.font-64 {
+    font-size: 64px;
+}
+.font-20 {
+    font-size: 20px;
+}
+/* --------------Font Size End--------------- */
+
+/* --------------Font Family Start--------------- */
+
+.comfo {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.nun {
+    font-family: "Nunito", sans-serif;
+}
+
+.play {
+    font-family: "Playfair Display", serif;
+}
+
+.rale {
+    font-family: "Raleway", sans-serif;
+}
+.robo {
+    font-family: "Roboto", sans-serif;
+}
+/* --------------Font Family End--------------- */
+/* ==================================================
+                Common Css End
+==================================================== */
+
+/* nav Start */
+nav .flex {
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    width: 30%;
+}
+.logo h3 {
+    color: #000000;
+}
+
+.navitem {
+    width: 70%;
+    column-gap: 40px;
+}
+
+nav .navitem .items {
+    column-gap: 40px;
+}
+nav .navitem .items li a {
+    color: #25282b;
+}
+/* nav End */
+
+/* Baner Start */
+#banner {
+    padding: 111px 0 159px;
+    background: #fff;
+}
+.banner-text {
+    width: 45%;
+    margin-top: 100px;
+}
+#banner .banner-text h4 {
+    text-transform: uppercase;
+    color: #fdc435;
+}
+#banner .banner-text h1 {
+    text-transform: capitalize;
+}
+#banner .banner-text p {
+    margin-bottom: 20px;
+}
+#banner .banner-text a {
+    color: #25282b;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: 1px solid #25282b;
+    margin-right: 12px;
+}
+#banner .banner-text a:hover {
+    background: #fdc435;
+    border: 1px solid #fdc435;
+}
+#banner .banner-text .active {
+    background: #fdc435;
+    border: 1px solid #fdc435;
+}
+/* Baner End */
+/* project Start */
+#project {
+    padding-bottom: 50px;
+}
+#project .peoject-container .flex {
+    margin-bottom: 80px;
+}
+#project .project-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.project-text {
+    width: 50%;
+    padding: 146px 38px 145px 50px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
+}
+.project-img {
+    width: 50%;
+}
+.project-text p {
+    line-height: 24px;
+    margin: 20px 0;
+    padding-right: 49px;
+}
+#project .project-text a {
+    padding: 12px 30px;
+    border: 1px solid #25282b;
+    border-radius: 24px;
+    color: #25282b;
+}
+#project .project-img img {
+    width: auto;
+    object-fit: cover;
+    height: 100%;
+}
+/* project End */
+/* Contact Start */
+#contact .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact .contact-heading {
+    text-align: center;
+}
+.contact-form {
+    max-width: 400px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.contact-form textarea#message {
+    width: 421px;
+    height: 115px;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.contact-form label {
+    font-size: 16px;
+}
+.social-media .social-item {
+    display: flex;
+}
+
+/* Contact End */
